@@ -10,7 +10,7 @@ const config = {
   entry: './app/app.js',
   output: {
     filename: 'bundle.[hash].js',
-    path: path.resolve(__dirname, 'doc'),
+    path: path.resolve(__dirname, 'docs'),
   },
   devtool: 'eval-cheap-source-map',
   plugins: [new HtmlWebpackPlugin({ template: './app/index.html' })],
