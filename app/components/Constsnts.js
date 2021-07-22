@@ -1,0 +1,7 @@
+const [score, setScore] = useState(0)
+const [mistakes, setMistakes] = useState(0)
+const [currentProblem, setCurrentProblem] = useState(generateProblem())
+const [userAnswer, setUserAnswer] = useState('')
+const [showError, setShowError] = useState(false)
+const answerField = useRef(null)
+const resetButton = useRef(null)
