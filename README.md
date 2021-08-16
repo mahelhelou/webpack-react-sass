@@ -6,3 +6,5 @@
 ## Learn
 
 - How to push this repo to Netlify and allow Netlify to run the `npm run build` task for you.
+
+- Complete the tutorials online about Webpack & ReactJS
